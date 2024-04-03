@@ -8,17 +8,20 @@ const Footer = () => {
           </p>
         </div>
         <div className="space-x-5">
-          <a href="/about" className="hover:underline">
+          <a href="/about" className="hover:underline hover:text-orange-500">
             About
           </a>
-          <a href="/about" className="hover:underline">
-            Privacy Policy
+          <a href="/privacy" className="hover:underline hover:text-orange-500">
+            Experiance
           </a>
-          <a href="/about" className="hover:underline">
-            Licensing{" "}
+          <a href="/projects" className="hover:underline hover:text-orange-500">
+            Projects{" "}
           </a>
-          <a href="/about" className="hover:underline">
+          <a href="/about" className="hover:underline hover:text-orange-500">
             Contact
+          </a>
+          <a href="/" className="hover:underline hover:text-orange-500">
+            <i className="fa fa-chevron-circle-up"></i>
           </a>
         </div>
       </div>

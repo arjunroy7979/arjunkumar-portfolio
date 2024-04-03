@@ -51,26 +51,27 @@ const Banner = () => {
           </p>
 
           <div className="icons-container flex space-x-5">
-            <a className=" hover:bg-orange-600 border cursor-pointer  px-3 py-4 w-10 h-10  rounded-full flex justify-center items-center bg-gray-800">
+            <a className=" hover:bg-blue-600 border cursor-pointer  px-3 py-4 w-10 h-10  rounded-full flex justify-center items-center bg-gray-800">
               <i class="fa fa-facebook text-4xl"></i>
             </a>
 
-            <a className=" hover:bg-orange-600   border cursor-pointer  px-3 py-4 w-10 h-10  rounded-full flex justify-center items-center bg-gray-800">
+            <a className=" hover:bg-pink-400   border cursor-pointer  px-3 py-4 w-10 h-10  rounded-full flex justify-center items-center bg-gray-800">
               <i class="fa text-4xl  fa-instagram"></i>
             </a>
 
-            <a className="  hover:bg-orange-600 border  cursor-pointer  px-3 py-4 w-10 h-10  rounded-full flex justify-center items-center bg-gray-800">
+            <a className="  hover:bg-red-600 border  cursor-pointer  px-3 py-4 w-10 h-10  rounded-full flex justify-center items-center bg-gray-800">
               <i class="fa text-4xl  fa-youtube-play"></i>
             </a>
 
-            <a className=" hover:bg-orange-600  border  cursor-pointer px-3 py-4 w-10 h-10  rounded-full flex justify-center items-center bg-gray-800">
+            <a className=" hover:bg-sky-600  border  cursor-pointer px-3 py-4 w-10 h-10  rounded-full flex justify-center items-center bg-gray-800">
               <i class="fa text-4xl  fa-linkedin"></i>
             </a>
           </div>
           <br />
           <a
-            className=" text-2xl px-3  py-2 bg-orange-500  rounded-full shadow-lg" href="/contact">
+            className=" text-sm px-3 py-2 bg-cyan-500 hover:bg-cyan-400 rounded shadow-lg" href="/contact">
             Contact Me
+            <i className="fa fa-arrow-right ms-2" aria-hidden="true"></i>
           </a>
         </div>
       </div>

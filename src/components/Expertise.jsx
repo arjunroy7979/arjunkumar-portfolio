@@ -25,8 +25,9 @@ const Expertise = () => {
                 dolores, cum nisi rerum, modi corporis eligendi harum. Ut
                 provident saepe in et ipsum.
               </p>
-              <button className=" text-xl px-4 py-2 bg-orange-500 rounded-full shadow-lg">
+              <button className=" text-sm px-4 py-1 bg-cyan-500 hover:bg-cyan-400 rounded shadow-lg">
                 Hire Me
+                <i className="fa fa-arrow-right ms-2" aria-hidden="true"></i>
               </button>
             </div>
           </div>

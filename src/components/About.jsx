@@ -13,7 +13,7 @@ const About = () => {
     Necessitatibus vero laborum nam quaerat ullam?
 `,
     actionButton: {
-      title: "Read More..",
+      title: "Read More",
       link: "/readmore",
     },
   });
@@ -40,8 +40,9 @@ const About = () => {
               <h1 className="text-4xl  font-semibold ">{data.title}</h1>
               <p>{data.desc1}</p>
               <p>{data.desc2}</p>
-              <button className="bg-orange-500 px-3 py-2 text-xl rounded-full shadow-lg">
+              <button className="bg-cyan-500 hover:bg-cyan-400 px-3 py-1 text-sm text-white rounded shadow-lg">
                 {data.actionButton.title}
+                <i className="fa fa-arrow-right ms-2" aria-hidden="true"></i>
               </button>
             </div>
           </div>

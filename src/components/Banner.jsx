@@ -30,6 +30,7 @@ const Banner = () => {
         backgroundSize: "cover",
       }}
       className="main-container flex items-center"
+      id="home"
     >
       {/* first dabba */}
       <div className="w-full flex items-center justify-center text-white ">

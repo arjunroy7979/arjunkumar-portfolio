@@ -2,7 +2,7 @@ import bannerBackground from "../assets/banner_wallpaper.svg";
 const Expertise = () => {
   return (
     <>
-      <div className="mt-2">
+      <div className="mt-2" id="expertise" >
         <h1 className=" mb-16 text-4xl font-bold underline  text-center">
           My Expertise
         </h1>

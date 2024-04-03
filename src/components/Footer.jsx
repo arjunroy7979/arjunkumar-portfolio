@@ -17,10 +17,10 @@ const Footer = () => {
           <a href="/projects" className="hover:underline hover:text-orange-500">
             Projects{" "}
           </a>
-          <a href="/about" className="hover:underline hover:text-orange-500">
+          <a href="/contact" className="hover:underline hover:text-orange-500">
             Contact
           </a>
-          <a href="/" className="hover:underline hover:text-orange-500">
+          <a href="#" id="home" className="hover:underline hover:text-orange-500">
             <i className="fa fa-chevron-circle-up"></i>
           </a>
         </div>

@@ -1,26 +1,32 @@
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 const Header = () => {
   const [brandName, setBrandName] = useState("Arjun Kumar");
   const [menuLinks, setMenuLinks] = useState([
     {
-      title: "About",
-      link: "/About",
+      title: "Home",
+      link: "home",
       id: 2,
     },
     {
-      title: "Experience",
-      link: "/experiance",
+      title: "About",
+      link: "about",
+      id: 2,
+    },
+    {
+      title: "Services",
+      link: "services",
       id: 3,
     },
     {
-      title: "Projects",
-      link: "/projects",
+      title: "Expertise",
+      link: "expertise",
       id: 4,
     },
     {
-      title: "Contact",
-      link: "/Contact",
+      title: "Services",
+      link: "services",
       id: 4,
     }
   ]);
@@ -41,9 +47,9 @@ const Header = () => {
         <div className="lg:space-x-6">
           {/* menu links */}
           {menuLinks.map((link) => (
-            <a key={link.id} href={link.link} className="hover:text-orange-600">
+            <Link key={link.id} to={link.link} className="hover:text-orange-600" spy={true} smooth={true} activeClass="activeClass" >
               {link.title}
-            </a>
+            </Link>
           ))}
         </div>
 

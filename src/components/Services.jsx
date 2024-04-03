@@ -14,7 +14,7 @@ const Services = () => {
   ]);
   return (
     <>
-      <div className="main-container py-12">
+      <div className="main-container py-12" id="services">
         <h1 className="text-4xl font-bold text-center underline">
           My Services
         </h1>

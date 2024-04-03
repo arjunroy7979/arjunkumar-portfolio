@@ -7,18 +7,9 @@ const Footer = () => {
             @2024 <span className="font-bold">Arjun Kumar</span> <span>All Rights Reserved</span>
           </p>
         </div>
-        <div className="space-x-5">
-          <a href="/about" className="hover:underline hover:text-orange-500">
-            About
-          </a>
-          <a href="/privacy" className="hover:underline hover:text-orange-500">
-            Experiance
-          </a>
-          <a href="/projects" className="hover:underline hover:text-orange-500">
-            Projects{" "}
-          </a>
-          <a href="/contact" className="hover:underline hover:text-orange-500">
-            Contact
+        <div className="space-x-6">
+          <a href="#">
+            Email: <span className="hover:text-orange-500">arjunroy7979@gmail.com</span>
           </a>
           <a href="#" id="home" className="hover:underline hover:text-orange-500">
             <i className="fa fa-chevron-circle-up"></i>

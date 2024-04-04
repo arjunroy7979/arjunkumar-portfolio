@@ -25,8 +25,8 @@ const Header = () => {
       id: 4,
     },
     {
-      title: "Services",
-      link: "services",
+      title: "Contact",
+      link: "contact",
       id: 4,
     }
   ]);
